@@ -9,4 +9,4 @@ import unittest
 # 测试文件名：可以使用 * 通配符，可以重复使用
 suite=unittest.defaultTestLoader.discover('./unittest/3.测试加载/Case','Case*.py')
 runner=unittest.TextTestRunner()
-runner.run(suite)#依旧只会执行开头为test的方法(Test开头也不会执行)
+runner.run(suite)#依旧只会执行开头为test_的方法(Test_开头也不会执行)
