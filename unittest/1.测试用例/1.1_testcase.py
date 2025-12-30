@@ -11,6 +11,7 @@ class TestDemo(unittest.TestCase):
     def test_method2(self):
         print("测试方法2")
 
+# 在这里执行测试代码
 if __name__=='__main__':
     unittest.main(verbosity=2)
 
