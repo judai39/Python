@@ -17,7 +17,7 @@ def login_by_yield():
 # 2.使用request关键构造(修饰器函数可以有返回值)
 @pytest.fixture()
 def login_by_request(request):
-    driver=webdriver.Chrome(Service('C:/Users/judai/.chromedriver/chromedriver143/chromedriver.exe'))
+    driver=webdriver.Chrome(service=Service('C:/Users/judai/.chromedriver/chromedriver143/chromedriver.exe'))
     # 自定义tearDown部分为一个单独的函数
     def custom_fixture_teardown():
         tear_down_odds="我是tearDown中的参数"
