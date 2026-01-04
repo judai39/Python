@@ -14,4 +14,4 @@ class TestScopeSession:
 
 if __name__=="__main__":
     # 会话中的执行顺序由main调用顺序决定
-    pytest.main(["-vs","pytest/2.2_fixture_params/scope/fixture_scope_session/fixture_scope_session_odds.py","pytest/2.2_fixture/fixture_scope_session/fixture_scope_session.py"])
+    pytest.main(["-vs","pytest/3_fixture_params/scope/fixture_scope_session/fixture_scope_session_odds.py","pytest/2.2_fixture/fixture_scope_session/fixture_scope_session.py"])

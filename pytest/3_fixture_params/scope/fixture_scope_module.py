@@ -15,4 +15,4 @@ class TestModuleScope2():
     def test_04(self,function_scope_module):
         print("test_03测试方法在第二个类中被调用了,不会被装饰")
 if __name__=="__main__":
-    pytest.main(['-vs','pytest/2.2_fixture_params/scope/fixture_scope_module.py'])
+    pytest.main(['-vs','pytest/3_fixture_params/scope/fixture_scope_module.py'])

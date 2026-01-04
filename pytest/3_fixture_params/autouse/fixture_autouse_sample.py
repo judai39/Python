@@ -13,4 +13,4 @@ class TestAutouseFixture:
         print("测试方法002")
 
 if __name__=="__main__":
-    pytest.main(["-vs","pytest/2.2_fixture_params/autouse/fixture_autouse_sample.py"])
+    pytest.main(["-vs","pytest/3_fixture_params/autouse/fixture_autouse_sample.py"])

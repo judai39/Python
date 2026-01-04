@@ -20,4 +20,4 @@ class TestClassScope2:
         print("用例002,在类中的第二次测试,修饰器将不会生效")
 
 if __name__=='__main__':
-    pytest.main(['-vs','pytest/2.2_fixture_params/scope/fixture_scope_class.py'])
+    pytest.main(['-vs','pytest/3_fixture_params/scope/fixture_scope_class.py'])

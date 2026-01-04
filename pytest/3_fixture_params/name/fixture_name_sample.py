@@ -9,4 +9,4 @@ def test_002(old_fixture_name):
     print("将装饰器以旧的名字传入测试方法,不生效")
 
 if __name__=="__main__":
-    pytest.main(['-vs','pytest/2.2_fixture_params/name/fixture_name_sample.py'])
+    pytest.main(['-vs','pytest/3_fixture_params/name/fixture_name_sample.py'])

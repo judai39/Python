@@ -11,4 +11,4 @@ class TestParamsFixture:
         print(f"score_params:{params_fixture}")
 
 if __name__=='__main__':
-    pytest.main(["-vs","pytest/2.2_fixture_params/params_and_ids/fixture_params_sample.py"])
+    pytest.main(["-vs","pytest/3_fixture_params/params_and_ids/fixture_params_sample.py"])

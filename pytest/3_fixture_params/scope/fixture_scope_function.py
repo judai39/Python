@@ -20,4 +20,4 @@ class TestFunctionScope:
         print("返回值为:{}".format(function_scope_fixture_include))
 
 if __name__=='__main__':
-    pytest.main(['-vs','pytest/2.2_fixture_params/scope/fixture_scope_function.py'])
+    pytest.main(['-vs','pytest/3_fixture_params/scope/fixture_scope_function.py'])
