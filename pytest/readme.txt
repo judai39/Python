@@ -18,3 +18,7 @@ scope不同范围的生效情况:
     class	    函数级 模块级 每一个.py文件调用一次
     module	    模块级 每一个.py文件调用一次
     session	    会话级 每次会话只需要运行一次，会话内所有方法及类，模块都共享这个方法
+
+
+@pytest.fixture()修饰装饰器
+@pytest.mark./...修饰测试方法
