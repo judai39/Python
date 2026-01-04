@@ -7,4 +7,4 @@ def test_sample2(login_by_yield):
     print("测试一下conftest装饰器文件中的loging_by_yield装饰器方法")
 
 if __name__=="__main__":
-    pytest.main(['-vs','pytest/2.1_conftest/test_sample_conftest.py'])
+    pytest.main(['-vs','pytest/2_conftest/test_sample_conftest.py'])
