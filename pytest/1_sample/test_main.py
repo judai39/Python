@@ -4,7 +4,7 @@ def test_01():
 
 if __name__=="__main__":
     # 注意pytest测试文件的命名必须以test开头且符合py文件的命名格式
-    pytest.main(['-v','pytest/1.1_sample/test_main.py'])
+    pytest.main(['-v','pytest/1_sample/test_main.py'])
     
 
 # 其他参数
