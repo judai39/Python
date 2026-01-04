@@ -24,4 +24,4 @@ class TestSkip:
         print("该类为拓展功能，还没开始撰写功能")
 
 if __name__=="__main__":
-    pytest.main(['-vs','pytest/2.3_mark/2.3.1_skip/mark_skip_sample.py'])
+    pytest.main(['-vs','pytest/4_mark/mark_skip/mark_skip_sample.py'])

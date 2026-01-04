@@ -11,4 +11,4 @@ class TestSkipIf:
         print("跳过该方法?")
 
 if __name__=="__main__":
-    pytest.main(["-vs","pytest/2.3_mark/2.3.1_skip/mark_skipif_sample.py"])
+    pytest.main(["-vs","pytest/4_mark/mark_skip/mark_skipif_sample.py"])
