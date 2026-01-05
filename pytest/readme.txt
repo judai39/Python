@@ -2,6 +2,8 @@
 2）测试类（class）必须以Test开头，并且不能带init方法，类里的方法必须以test_开头
 3）测试用例（函数）必须以test_开头
 
+pytest执行分为三种,命令行执行,main函数执行,main函数复合pytest.ini文件执行
+
 conftest.py的特点
 pytest 会默认读取 conftest.py里面的所有 fixture
 conftest.py 文件名称是固定的，不能改动
