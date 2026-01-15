@@ -1,0 +1,1 @@
+pytest框架命令行输入参数 --html=./report/report.html即可生成默认的测试报告
