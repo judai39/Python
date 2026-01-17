@@ -2,6 +2,7 @@
 
 import pytest
 
+# ids中的序列数必须为param+number,返回值也必须是request.param
 @pytest.fixture(params=[1,2,3],ids=["param1","param2","param3"])
 def params_fixture(request):
     return request.param
