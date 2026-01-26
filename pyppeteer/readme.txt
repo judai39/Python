@@ -1,0 +1,4 @@
+Pyppeteer是一个基于Python的无头浏览器库，它封装了Google Chrome DevTools Protocol，
+通过模拟用户操作来实现网页的自动化测试和爬取
+
+主要用于selenium无法操作的网页--需要js动态渲染的网页
