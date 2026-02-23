@@ -14,3 +14,8 @@ async def main():
     page=await browser.newPage()
     await page.goto('https://www.baidu.com')
     await browser.close()
+
+# 启动协程
+loop=asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
+loop.run_until_complete(main())
