@@ -11,7 +11,7 @@ from youtube_cover_download import youtube_download_maxresdefault_cover
 import os
 import getpass
 
-driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+driver=webdriver.Chrome(service=Service('C:/Users/judai/.chromedriver/chromedriver145/chromedriver.exe'))
 
 driver.get("https://www.youtube.com/@necomakarin")
 download_content_div='癒しのASMR♡ -人気順-'
